@@ -1,0 +1,15 @@
+version: '3'
+services:
+  bracket-docker:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/application/
+    ports:
+      - 10001:10001
+      - 10002:10002
+      - 10003:10003
+      - 10004:10004
+      - 10005:10005
+    network_mode: host

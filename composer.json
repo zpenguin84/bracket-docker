@@ -1,0 +1,22 @@
+{
+    "name": "zpenguin84/bracket-docker",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zpenguin84",
+            "email": "zpenguin84@list.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "zpenguin84/bracket-validator": "^0.1.0",
+        "symfony/yaml": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+           "Application\\": "lib"
+        }
+    }
+}
